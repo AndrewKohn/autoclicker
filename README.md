@@ -1,18 +1,24 @@
-## Getting Started
+# AutoClicker
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Andrew Kohn
 
-## Folder Structure
+#
 
-The workspace contains two folders by default, where:
+Autoclicker made for a friend to perform repeated actions in games while they are AFK.
+The app is set to OFF on startup.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+1) Export to .jar and execute.
+2) While on the autoclicker window, press SHIFT + ALT + 8 to toggle the autoclicker.
+   * You have a 10 second window frame to tab into your selected program.  This time window can be edited by changing the waitTimeLimit variable (in seconds). 
+3) Aim or hover on what you want autoclicked.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+#
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### To-do
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Change hotkey to some sort of global hotkey that will activate regardless of currently active window.
+- Add a timer to update the countdownLabel upon keypress.
+- Add user settings to allow for mouse press (HOLD) time length and time intervals.
+- Add a target window selection.
+- Add stats for click count and time active.
+- Add favicon.
