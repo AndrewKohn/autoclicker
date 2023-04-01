@@ -71,9 +71,9 @@ public class AutoClicker implements KeyListener {
                         hasStarted = !hasStarted;
                     }
                     robot.mousePress(button);
-                    Thread.sleep(100);
+                    Thread.sleep(100);  // Edit time to have HOLD mouse click
                     robot.mouseRelease(button); 
-                    Thread.sleep(1000);
+                    Thread.sleep(1000); // Edit time for gap between clicks
                 }else{
                     clickerWait(1);
                 }
